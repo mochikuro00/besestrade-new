@@ -3,8 +3,11 @@ module.exports = {
     {
       name: 'webapp',
       script: 'npm',
-      args: 'run dev -- --host 0.0.0.0 --port 3000',
-      watch: false,
-    },
-  ],
-};
+      args: 'run preview',
+      env: {
+        NODE_ENV: 'production',
+        PORT: 3000
+      }
+    }
+  ]
+}

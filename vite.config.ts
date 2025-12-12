@@ -1,1 +1,1 @@
-import { defineConfig } from 'vite'; import react from '@vitejs/plugin-react'; export default defineConfig({ plugins: [react()], build: { outDir: 'dist' } });
+import { defineConfig } from 'vite'; import react from '@vitejs/plugin-react'; export default defineConfig({ plugins: [react()], build: { outDir: 'dist' }, preview: { allowedHosts: ['3000-i3tj3gfdwjitjl90zrcs9-d0b9e1e2.sandbox.novita.ai'] } });
